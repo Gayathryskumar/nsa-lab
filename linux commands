@@ -1,0 +1,31 @@
+1.mkdir sales
+  cd sales
+  mkdir loction1
+  mkdir location2
+  mkdir location1
+  mkdir location3
+  cd location1
+  touch sales1.txt
+  touch sales3.txt
+  touch sales2.txt
+  cd ..
+  cd loction2
+  touch pur1.txt
+  cat>pur1.txt
+  touch pur2.txt
+  cat>pur2.txt
+  cd location3
+  touch stock1.txt
+  cat>stock1.txt
+  touch stock2.txt
+1)cat pur1.txt pur2.txt >> pur3.txt
+2)cp pur3.txt ~/sales/location3/stock3.txt
+3)chmod a+rwx
+4)head -n 10 stock1.txt
+5)ls -a
+
+
+
+
+
+
